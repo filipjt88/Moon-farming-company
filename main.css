@@ -1,0 +1,395 @@
+/* BASIC STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark:#090501;
+    --white: #fff;
+    --green: #052501;
+    --lightGreen: #4bc714;
+    --transition: .5s ease;
+}
+
+.py {
+    padding: 100px 0;
+}
+
+.button {
+    padding: 10px 40px;
+    border-radius: 15px;
+    background: var(--green);
+    color: var(--white);
+    font-size: 1.2rem;
+    border: none;
+}
+
+/* END OF BASIC STYLE */
+
+
+/*NAVIGATION*/
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: var(--lightGreen)!important;
+    transition: var(--transition);
+}
+
+header {
+    background: var(--green);
+    padding: 30px;
+}
+
+.nav2 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%);
+    background: var(--dark);
+    padding-left: 22%;
+    position: relative;
+    bottom: 30px;
+}
+
+.nvbr {
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.nvbr h1 {
+    padding-top: 100px;
+    font-weight: 700;
+}
+
+.nvbr h3 {
+    color: var(--lightGreen);
+    font-size: 2rem;
+}
+
+.nvbr p {
+    color: var(--white);
+}
+/* END OF NAVIGATION*/
+
+
+
+/* ABOUT*/
+#about h1 {
+    color: var(--green);
+}
+
+#about h2 {
+    color: var(--lightGreen);
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+/* END OF ABOUT*/
+
+
+
+/* SIDEBAR*/
+.sidebar {
+    background-color: var(--green);
+    padding: 30px;
+}
+
+.sidebar h3 {
+    color: var(--lightGreen)!important;
+}
+
+.sidebar h6 {
+    color: var(--white);
+}
+/* END OF SIDEBAR*/
+
+
+/* PRODUCT */
+#product {
+    padding: 30px;
+}
+
+#product h1 {
+    line-height: 1;
+}
+
+#product span {
+    color: var(--lightGreen);
+    font-weight: 200;
+}
+
+#product span::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: var(--dark);
+    width: 330px;
+    margin: auto;
+    position: relative;
+    right: 160px;
+    top: 10px;
+}
+/* END OF PRODUCT*/
+
+
+/* FARM */
+#farm {
+    background-color: var(--green);
+}
+
+#farm .button {
+    padding: 10px 40px;
+    border-radius: 15px;
+    background: var(--white);
+    color: var(--dark);
+    font-size: 1.2rem;
+    border: none;
+}
+
+#farm .col-md-4:nth-child(3) {
+    margin-top: 150px;
+}
+
+.card-footer {
+    text-align: center;
+    background: rgba(5, 33, 1);
+    color: var(--white);
+}
+/* END OF FARM */
+
+
+
+/* MOON */
+#moon span {
+    color: var(--lightGreen);
+    font-weight: 200;
+}
+
+#moon h1::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: var(--dark);
+    width: 330px;
+    margin: auto;
+}
+/* END OF MOON */
+
+
+/* TESTIMONIAL */
+#testimonial .col-md-3 img {
+    border: 10px solid var(--lightGreen);
+}
+
+#testimonial .col-md-8 span {
+    font-size: 1.4rem;
+    color: var(--lightGreen);
+    font-weight: 500;
+}
+
+#testimonial .col-md-8 p {
+    font-size: 1rem;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    background: var(--green);
+    color: var(--white);
+}
+
+#testimonial h1::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: var(--dark);
+    width: 330px;
+    margin: auto;
+}
+
+#testimonial p {
+    padding: 30px;
+}
+/* END OF TESTIMONIAL */
+
+
+/* TOUCH */
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+#Touch .form-group .form-control {
+    background: var(--green);
+    color: var(--white);
+}
+
+#Touch .form-group .form-control::placeholder {
+    color: var(--lightGreen);
+}
+
+#Touch .form-group .btn:hover {
+    transition: var(--transition);
+    background: var(--lightGreen);
+    border: none;
+}
+
+#Touch .form-group input:focus {
+    transition: var(--transition);
+    border: 1px solid var(--lightGreen);
+    background: var(--white);
+}
+
+#Touch .form-group textarea:focus {
+    transition: var(--transition);
+    background: var(--white);
+    border: 1px solid var(--lightGreen);
+}
+
+#Touch h1::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: var(--dark);
+    width: 330px;
+    margin: auto;
+}
+
+#Touch span {
+    color: var(--lightGreen);
+    font-weight: 200;
+}
+/* END OF TOUCH*/
+
+
+/* SUBSCRIBE */
+#subscribe {
+    background: var(--green);
+}
+
+#subscribe .nav {
+    line-height: .5;
+}
+
+#subscribe .nav-link:hover {
+    color: var(--lightGreen)!important;
+    transition: var(--transition);
+}
+
+#subscribe .nav-item .nav-link::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    content: "\f054";
+    color: var(--lightGreen);
+}
+
+#subscribe .col-md-3 .city::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    content: "\f3c5";
+    color: var(--white);
+}
+
+#subscribe .col-md-3 .mail::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    content: "\f0e0";
+    color: var(--white);
+}
+
+#subscribe .col-md-3 .phone::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    content: "\f098";
+    color: var(--white);
+}
+/* END OF SUBSCRIBE */
+
+
+/* FOOTER */
+footer {
+    background-color: var(--lightGreen);
+    padding: 20px;
+    color: var(--white);
+}
+/* END OF FOOTER */
+
+
+/*RESPONSIVE DESIGN*/
+@media(max-width:768px) {
+    #about h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #about h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    #about p {
+        text-align: center;
+    }
+    
+    #about .button {
+       position: relative;
+       left: 25%;
+    }
+    
+    #about img {
+        margin: 50px 0;
+    }
+    
+    .sidebar .col-md-3 {
+        padding-top: 50px;
+    }
+    
+    #product h1 {
+        font-size: 2rem;
+        margin: auto;
+    }
+    
+    #moon img{
+        padding-top: 50px;
+    }
+    
+    #testimonial p {
+        text-align: center;
+    }
+    
+    #testimonial h2 {
+        text-align: center;
+    }
+    
+    #Touch .form-group {
+        margin-top: 50px;
+    }
+    
+    #subscribe {
+        text-align: center;
+    }
+    
+    #subscribe .nav-item {
+        padding-top: 10px;
+    }
+    
+    #subscribe input {
+        width: 50%;
+        margin: auto;
+    }
+    
+    #subscribe .col-md-3 {
+        padding-top: 50px;
+    }
+    
+}
+/*RESPONSIVE DESIGN*/
+
